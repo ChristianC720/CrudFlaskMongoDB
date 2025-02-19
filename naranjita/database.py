@@ -4,10 +4,10 @@ from pymongo.server_api import ServerApi
 import certifi
 uri = "mongodb+srv://databaseAccessPoint:dFzZn97QZgey2LZ@kankuntransportes.bxmqo.mongodb.net/?retryWrites=true&w=majority&appName=KanKunTransportes" 
 #Credenciales mongodb desglosado
-# "mongodb+srv:                                                 Aqui se esta utilizando pymongo
-# databaseAccessPoint : dFzZn97QZgey2LZ                         Nombre de usuario y contraseña que se van a utilizar para la app
-# @kankuntransportes.bxmqo.mongodb.net                          Url a acceder, donde se encuentra el cluster
-# /?retryWrites=true&w=majority&appName=KanKunTransportes"      algunas configs y el nombre de la app
+# "mongodb+srv:                                                   Aqui se esta utilizando pymongo
+# databaseAccessPoint : databasePassword                          Nombre de usuario y contraseña que se van a utilizar para la app
+# @CLUSTER.bxmqo.mongodb.net                                      Url a acceder, donde se encuentra el cluster
+# /?retryWrites=true&w=majority&appName=AppNameHere"              algunas configs y el nombre de la app
 
 ca = certifi.where()    #Verifica las rutas de la bd, algo asi entendi
 

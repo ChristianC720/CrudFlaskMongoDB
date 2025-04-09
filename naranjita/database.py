@@ -2,7 +2,7 @@
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import certifi
-uri = "mongodb+srv://databaseAccessPoint:dFzZn97QZgey2LZ@kankuntransportes.bxmqo.mongodb.net/?retryWrites=true&w=majority&appName=KanKunTransportes" 
+uri = "mongodb+srv://databaseAccessPoint:LLAVE@LLAVE.LLAVE.mongodb.net/?retryWrites=true&w=majority&appName=APLICACION" 
 #Credenciales mongodb desglosado
 # "mongodb+srv:                                                   Aqui se esta utilizando pymongo
 # databaseAccessPoint : databasePassword                          Nombre de usuario y contraseña que se van a utilizar para la app
